@@ -7,6 +7,8 @@ package com.mishawagner.ssc.mail;
  */
 public class Main {
     public static void main(String[] args) {
-        new Mail();
+        Mail mail = new Mail();
+
+        new MailGUI(mail);
     }
 }
