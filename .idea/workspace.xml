@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a23cec-863d-49c9-a8b2-04995a9678f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_4.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSCMail.iml" afterPath="$PROJECT_DIR$/SSCMail.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FolderViewer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MailInteractor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageViewer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SSCMail.iws" />
@@ -67,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageViewer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageViewer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09677419">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="docComment;class#MessageViewer#0" expanded="false" />
@@ -88,12 +86,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MailInteractor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MailInteractor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding />
+            <state vertical-scroll-proportion="0.19354838">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#MailInteractor#0" expanded="false" />
+                <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
+                <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+                <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
+                <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -174,9 +178,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java" />
-        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java" />
       </list>
     </option>
   </component>
@@ -611,55 +615,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/credentials.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#Mail#0" expanded="false" />
-            <element signature="docComment;field#session#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;field#username#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;field#messages#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#Mail#0;class#Mail#0" expanded="false" />
-            <element signature="method#Mail#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#login#0;class#Mail#0" expanded="false" />
-            <element signature="method#login#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#setCredentials#0;class#Mail#0" expanded="false" />
-            <element signature="method#setCredentials#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#setSysProperties#0;class#Mail#0" expanded="false" />
-            <element signature="method#setSysProperties#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#setMessages#0;class#Mail#0" expanded="false" />
-            <element signature="method#setMessages#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
-            <element signature="method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -692,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09677419">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="docComment;class#MessageViewer#0" expanded="false" />
@@ -705,6 +660,61 @@
             <element signature="method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
             <element signature="docComment;method#printMessageContents#0;class#MessageViewer#0" expanded="false" />
             <element signature="method#printMessageContents#0;class#MessageViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/credentials.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Mail#0" expanded="false" />
+            <element signature="docComment;field#session#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;field#username#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;field#messages#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#Mail#0;class#Mail#0" expanded="false" />
+            <element signature="method#Mail#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#login#0;class#Mail#0" expanded="false" />
+            <element signature="method#login#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#setCredentials#0;class#Mail#0" expanded="false" />
+            <element signature="method#setCredentials#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#setSysProperties#0;class#Mail#0" expanded="false" />
+            <element signature="method#setSysProperties#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#setMessages#0;class#Mail#0" expanded="false" />
+            <element signature="method#setMessages#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
+            <element signature="method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19354838">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+            <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
           </folding>
         </state>
       </provider>
