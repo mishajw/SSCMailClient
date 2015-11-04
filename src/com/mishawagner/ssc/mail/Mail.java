@@ -18,14 +18,24 @@ import java.util.Properties;
 public class Mail {
     private static final Logger __logger = LoggerFactory.getLogger(Mail.class);
 
+    /**
+     * Mail session
+     */
     private Session session;
-    private String username;
-    private String password;
-    private String smtpHost;
-    private String imapHost;
 
+    /**
+     * Credentials
+     */
+    private String username, password, smtpHost, imapHost;
+
+    /**
+     * Messages in the folder
+     */
     private Message[] messages;
 
+    /**
+     * Start connecting to mail server
+     */
     public Mail() {
         this.login();
         this.setMessages();
@@ -44,6 +54,9 @@ public class Mail {
         this.session = Session.getDefaultInstance(sysProperties);
     }
 
+    /**
+     * Get the credentials from a property file
+     */
     private void setCredentials() {
         Properties credentials = new Properties();
 
@@ -66,6 +79,9 @@ public class Mail {
         __logger.info("Set credentials");
     }
 
+    /**
+     * Set the system properties up for sending/recieving mail
+     */
     private void setSysProperties() {
         Properties sysProperties = System.getProperties();
 
@@ -85,6 +101,9 @@ public class Mail {
         __logger.info("Set system properties");
     }
 
+    /**
+     * Set the latest messages from the server
+     */
     public void setMessages() {
         try {
             __logger.info("Getting store...");
@@ -106,6 +125,10 @@ public class Mail {
         }
     }
 
+    /**
+     * Get the password from the user
+     * @return
+     */
     private String getPasswordFromUser() {
         JPasswordField passField = new JPasswordField(10);
         int action = JOptionPane.showConfirmDialog(null, passField, "Please enter your password:", JOptionPane.OK_CANCEL_OPTION);
