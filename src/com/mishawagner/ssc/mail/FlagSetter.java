@@ -28,7 +28,7 @@ public class FlagSetter extends MailInteractor {
         System.out.printf("\n\n\n");
         printMainMenu();
         System.out.print("Enter your option: ");
-        int option = Integer.parseInt(input.next());
+        int option = Integer.parseInt(input.nextLine());
 
         try {
             switch (option) {

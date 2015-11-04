@@ -45,17 +45,26 @@ public class Main {
     private void offerMainMenu() {
         System.out.println("\n\n\n");
 
-        mail.getMessages();
+        mail.setMessages();
 
         System.out.println(mainMenu);
         System.out.print("Enter your option: ");
-        int option = Integer.parseInt(this.input.next());
+        int option = Integer.parseInt(this.input.nextLine());
 
         MailInteractor interactor;
 
         switch (option) {
             case 1:
                 interactor = new FolderViewer(this.mail, this.input);
+                break;
+            case 2:
+                interactor = new MessageCreator(this.mail, this.input);
+                break;
+            case 3:
+                interactor = new MessageSearcher(this.mail, this.input);
+                break;
+            case 4:
+                interactor = new SearchFlagSetter(this.mail, this.input);
                 break;
             case 5:
                 System.out.println("Goodbye!");

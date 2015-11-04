@@ -51,7 +51,13 @@ public class Mail {
 
         Properties sysProperties = System.getProperties();
         sysProperties.put("mail.store.protocol", "imaps");
-        this.session = Session.getDefaultInstance(sysProperties);
+        this.session = Session.getInstance(sysProperties,
+                new Authenticator() {
+                    @Override
+                    protected PasswordAuthentication getPasswordAuthentication() {
+                        return new PasswordAuthentication(username, password);
+                    }
+                });
     }
 
     /**
@@ -144,5 +150,13 @@ public class Mail {
 
     public Message[] getMessages() {
         return messages;
+    }
+
+    public Session getSession() {
+        return session;
+    }
+
+    public String getUsername() {
+        return username;
     }
 }

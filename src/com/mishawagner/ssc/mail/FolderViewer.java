@@ -31,7 +31,7 @@ public class FolderViewer extends MailInteractor {
         printFolder(messages);
 
         System.out.print("Enter your option: ");
-        int option = Integer.parseInt(input.next());
+        int option = Integer.parseInt(input.nextLine());
 
         if (option != -1) {
             if (option >= messages.length + 1 || option < 1) {
@@ -54,14 +54,8 @@ public class FolderViewer extends MailInteractor {
         for (int i = 0; i < messages.length; i++) {
             Message m = messages[i];
 
-            try {
-                System.out.println(i + 1 + ") " + m.getSubject());
-                System.out.println("\tFROM: " + Arrays.toString(m.getFrom()));
-                System.out.println("\tSEEN: " + m.isSet(Flags.Flag.SEEN) + "    RECENT: " + m.isSet(Flags.Flag.RECENT) +  "    FLAGGED: " + m.isSet(Flags.Flag.FLAGGED));
-                System.out.println();
-            } catch (MessagingException e) {
-                __logger.error("Couldn't view message details", e);
-            }
+            System.out.println("Message " + (i + 1) + ":");
+            MessageUtils.printSimpleDetails(m);
         }
     }
 }

@@ -52,11 +52,11 @@ public class MessageViewer extends MailInteractor{
         printMessageInfo();
         System.out.println(mainMenu);
         System.out.print("Enter your option: ");
-        int option = Integer.parseInt(input.next());
+        int option = Integer.parseInt(input.nextLine());
 
         switch (option) {
             case 1:
-                printMessageContents();
+                MessageUtils.getAllBody(this.message);
                 break;
             case 2:
                 MailInteractor flagSetter = new FlagSetter(mail, input, message);
@@ -80,32 +80,6 @@ public class MessageViewer extends MailInteractor{
             System.out.println("\tFROM: " + Arrays.toString(this.message.getFrom()));
         } catch (MessagingException e) {
             __logger.error("Couldn't read message details", e);
-        }
-    }
-
-    /**
-     * Print the contents of the message
-     */
-    private void printMessageContents() {
-        Multipart content;
-
-        try {
-            content = (Multipart) this.message.getContent();
-
-            for (int i = 0; i < content.getCount(); i++) {
-                BodyPart part = content.getBodyPart(i);
-                String disposition = part.getDisposition();
-
-                if (disposition != null && disposition.equalsIgnoreCase("attachment")) {
-                    DataHandler handler = part.getDataHandler();
-                    System.out.println("Message has some attachment: " + handler.getName());
-                } else {
-                    System.out.println("Body: " + part.getContent().toString());
-                }
-            }
-
-        } catch (IOException | MessagingException e) {
-            __logger.info("Couldn't read message", e);
         }
     }
 }
