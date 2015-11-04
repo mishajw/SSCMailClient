@@ -3,6 +3,7 @@ package com.mishawagner.ssc.mail;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.mail.Flags;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import java.util.Arrays;
@@ -22,6 +23,8 @@ public class FolderViewer extends MailInteractor {
 
     @Override
     public void start() {
+        System.out.println("\n\n\n");
+
         Message[] messages = mail.getMessages();
 
         System.out.println("Enter the index of an email to perform actions on it, or -1 to exit.");
@@ -31,13 +34,13 @@ public class FolderViewer extends MailInteractor {
         int option = Integer.parseInt(input.next());
 
         if (option != -1) {
-            if (option >= messages.length) {
+            if (option >= messages.length + 1 || option < 1) {
                 System.out.println("Not a valid email index.");
                 start();
                 return;
             }
 
-            Message chosenMessage = messages[option];
+            Message chosenMessage = messages[option - 1];
             MessageViewer messageViewer = new MessageViewer(mail, input, chosenMessage);
             messageViewer.start();
         }
@@ -50,11 +53,14 @@ public class FolderViewer extends MailInteractor {
     public void printFolder(Message[] messages) {
         for (int i = 0; i < messages.length; i++) {
             Message m = messages[i];
+
             try {
-                System.out.println(i + ") " + m.getSubject());
+                System.out.println(i + 1 + ") " + m.getSubject());
                 System.out.println("\tFROM: " + Arrays.toString(m.getFrom()));
+                System.out.println("\tSEEN: " + m.isSet(Flags.Flag.SEEN) + "    RECENT: " + m.isSet(Flags.Flag.RECENT) +  "    FLAGGED: " + m.isSet(Flags.Flag.FLAGGED));
+                System.out.println();
             } catch (MessagingException e) {
-                __logger.error("Couldn't set messages", e);
+                __logger.error("Couldn't view message details", e);
             }
         }
     }

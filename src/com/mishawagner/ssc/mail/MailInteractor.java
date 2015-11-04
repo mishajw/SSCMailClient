@@ -16,7 +16,7 @@ public abstract class MailInteractor {
      * How to interact with the user
      */
     protected Scanner input;
-    
+
     public MailInteractor(Mail mail, Scanner input) {
         this.mail = mail;
         this.input = input;

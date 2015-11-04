@@ -47,6 +47,8 @@ public class MessageViewer extends MailInteractor{
 
     @Override
     public void start() {
+        System.out.println("\n\n\n");
+
         printMessageInfo();
         System.out.println(mainMenu);
         System.out.print("Enter your option: ");
@@ -57,7 +59,8 @@ public class MessageViewer extends MailInteractor{
                 printMessageContents();
                 break;
             case 2:
-                System.out.println("Not supported yet");
+                MailInteractor flagSetter = new FlagSetter(mail, input, message);
+                flagSetter.start();
                 break;
             case 3:
                 return;

@@ -43,11 +43,15 @@ public class Main {
      * Display the menu to the user and ask for interaction
      */
     private void offerMainMenu() {
+        System.out.println("\n\n\n");
+
+        mail.getMessages();
+
         System.out.println(mainMenu);
         System.out.print("Enter your option: ");
         int option = Integer.parseInt(this.input.next());
 
-        MailInteractor interactor = null;
+        MailInteractor interactor;
 
         switch (option) {
             case 1:
@@ -63,6 +67,8 @@ public class Main {
         }
 
         interactor.start();
+
+        offerMainMenu();
     }
 
     public static void main(String[] args) {
