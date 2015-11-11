@@ -1,5 +1,7 @@
-package com.mishawagner.ssc.mail;
+package com.mishawagner.ssc.mail.interactors;
 
+import com.mishawagner.ssc.mail.Mail;
+import com.mishawagner.ssc.mail.util.MessageUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,6 +36,10 @@ public class SearchFlagSetter extends MailSearchInteractor {
         setFlagsForMessages(foundMessages);
     }
 
+    /**
+     * Set a flag for messages
+     * @param messages messages to set the flags for
+     */
     private void setFlagsForMessages(List<Message> messages) {
         Flags.Flag flag;
         boolean result;

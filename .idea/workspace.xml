@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a23cec-863d-49c9-a8b2-04995a9678f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailSearchInteractor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageSearcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/SearchFlagSetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FlagSetter.class" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FlagSetter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FolderViewer.class" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FolderViewer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/Mail.class" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/Mail.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FlagSetter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/FolderViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MailInteractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MailSearchInteractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageSearcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/SearchFlagSetter.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FlagSetter.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailInteractor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailSearchInteractor.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailSearchInteractor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageCreator.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageSearcher.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageSearcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageUtils.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/SearchFlagSetter.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageViewer.class" afterPath="$PROJECT_DIR$/target/classes/com/mishawagner/ssc/mail/MessageViewer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FlagSetter.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FlagSetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageCreator.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" afterPath="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SSCMail.iws" />
@@ -44,8 +49,9 @@
         <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Main#0" expanded="false" />
                 <element signature="docComment;field#mainMenu#0;class#Main#0" expanded="false" />
                 <element signature="docComment;field#mail#0;class#Main#0" expanded="false" />
@@ -53,86 +59,143 @@
                 <element signature="docComment;method#Main#0;class#Main#0" expanded="false" />
                 <element signature="method#Main#0;class#Main#0" expanded="false" />
                 <element signature="docComment;method#offerMainMenu#0;class#Main#0" expanded="false" />
+                <element signature="method#offerMainMenu#0;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MailSearchInteractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailSearchInteractor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailSearchInteractor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
+                <element signature="docComment;class#MailSearchInteractor#0" expanded="false" />
+                <element signature="docComment;method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+                <element signature="method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+                <element signature="docComment;method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+                <element signature="method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+                <element signature="docComment;method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+                <element signature="method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MessageSearcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageSearcher.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
+                <element signature="docComment;class#MessageSearcher#0" expanded="false" />
+                <element signature="method#start#0;class#MessageSearcher#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageUtils.java">
+      <file leaf-file-name="MessageUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.92258066">
+              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
               <folding>
                 <element signature="docComment;class#MessageUtils#0" expanded="false" />
                 <element signature="method#printSimpleDetails#0;class#MessageUtils#0" expanded="false" />
-                <element signature="method#getAllBody#0;class#MessageUtils#0" expanded="false" />
-                <element signature="method#getMainBody#0;class#MessageUtils#0" expanded="false" />
+                <element signature="docComment;method#getMainBody#0;class#MessageUtils#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchFlagSetter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/SearchFlagSetter.java">
+      <file leaf-file-name="Part.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.jar!/javax/mail/Part.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71153843">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            <state vertical-scroll-proportion="-12.206897">
+              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchFlagSetter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
+                <element signature="docComment;class#SearchFlagSetter#0" expanded="false" />
+                <element signature="method#start#0;class#SearchFlagSetter#0" expanded="false" />
+                <element signature="docComment;method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+                <element signature="method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageCreator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+              <folding>
+                <element signature="docComment;class#MessageCreator#0" expanded="false" />
+                <element signature="docComment;field#to#0;class#MessageCreator#0" expanded="false" />
+                <element signature="method#start#0;class#MessageCreator#0" expanded="false" />
+                <element signature="docComment;method#setMessageDetailsFromUser#0;class#MessageCreator#0" expanded="false" />
+                <element signature="method#setMessageDetailsFromUser#0;class#MessageCreator#0" expanded="false" />
+                <element signature="docComment;method#setMessageDetailsFromDefault#0;class#MessageCreator#0" expanded="false" />
+                <element signature="method#setMessageDetailsFromDefault#0;class#MessageCreator#0" expanded="false" />
+                <element signature="docComment;method#sendMessage#0;class#MessageCreator#0" expanded="false" />
+                <element signature="method#sendMessage#0;class#MessageCreator#0" expanded="false" />
+                <element signature="docComment;method#getMessage#0;class#MessageCreator#0" expanded="false" />
+                <element signature="method#getMessage#0;class#MessageCreator#0" expanded="false" />
+                <element signature="docComment;method#getMessageBody#0;class#MessageCreator#0" expanded="false" />
+                <element signature="method#getMessageBody#0;class#MessageCreator#0" expanded="false" />
+                <element signature="e#4722#4800#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FolderViewer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#FolderViewer#0" expanded="false" />
+                <element signature="method#start#0;class#FolderViewer#0" expanded="false" />
                 <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+                <element signature="method#printFolder#0;class#FolderViewer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlagSetter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#FlagSetter#0" expanded="false" />
+                <element signature="method#FlagSetter#0;class#FlagSetter#0" expanded="false" />
+                <element signature="method#start#0;class#FlagSetter#0" expanded="false" />
+                <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+                <element signature="method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MessageViewer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
               <folding>
                 <element signature="docComment;class#MessageViewer#0" expanded="false" />
                 <element signature="docComment;field#mainMenu#0;class#MessageViewer#0" expanded="false" />
@@ -142,44 +205,6 @@
                 <element signature="docComment;method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
                 <element signature="method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlagSetter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FlagSetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.774194">
-              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-              <folding>
-                <element signature="docComment;class#FlagSetter#0" expanded="false" />
-                <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MailInteractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#MailInteractor#0" expanded="false" />
-                <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
-                <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
-                <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="credentials.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/credentials.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -214,14 +239,18 @@
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FlagSetter.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java" />
-        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageCreator.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java" />
-        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" />
-        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailSearchInteractor.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageSearcher.java" />
-        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageUtils.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailSearchInteractor.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageUtils.java" />
         <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/SearchFlagSetter.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java" />
+        <option value="$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java" />
       </list>
     </option>
   </component>
@@ -247,9 +276,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -274,9 +303,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,34 +340,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCMail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCMail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="new&#9;ACTION&#9;NewGroup&#10;rename&#9;ACTION&#9;RenameElement&#10;new &#9;ACTION&#9;NewGroup&#10;java class&#9;ACTION&#9;NewClass&#10;pom&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/pom.xml&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;pom.xml&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/pom.xml&#10;increase font&#9;null&#9;null&#10;refact&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;main&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/Main.java&#10;new class&#9;ACTION&#9;NewClass" />
+    <property name="SearchEverywhereHistoryKey" value="messageut&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/util/MessageUtils.java&#10;messagec&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/MessageCreator.java&#10;messagese&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/MessageSearcher.java&#10;message&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/MessageViewer.java&#10;mess&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/MessageSearcher.java&#10;open &#9;ACTION&#9;OpenFile&#10;new&#9;ACTION&#9;NewGroup&#10;rename&#9;ACTION&#9;RenameElement&#10;new &#9;ACTION&#9;NewGroup&#10;java class&#9;ACTION&#9;NewClass&#10;pom&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/pom.xml&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;pom.xml&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/pom.xml&#10;increase font&#9;null&#9;null&#10;refact&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;main&#9;FILE&#9;file:///home/misha/Dropbox/uni/ssc/SSCMail/src/com/mishawagner/ssc/mail/Main.java&#10;new class&#9;ACTION&#9;NewClass" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -591,8 +607,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -602,21 +618,21 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20508568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.34166667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1985" y="-4" width="1855" height="1084" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25207296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25207296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -644,6 +660,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -656,62 +680,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="docComment;class#MessageCreator#0" expanded="false" />
-            <element signature="docComment;field#to#0;class#MessageCreator#0" expanded="false" />
-            <element signature="docComment;method#setMessageDetailsFromUser#0;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;class#MessageUtils#0" expanded="false" />
+            <element signature="method#printSimpleDetails#0;class#MessageUtils#0" expanded="false" />
+            <element signature="docComment;method#getMainBody#0;class#MessageUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="docComment;field#session#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;field#username#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;field#messages#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#Mail#0;class#Mail#0" expanded="false" />
-            <element signature="method#Mail#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#login#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#setCredentials#0;class#Mail#0" expanded="false" />
-            <element signature="method#setCredentials#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#setSysProperties#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#setMessages#0;class#Mail#0" expanded="false" />
-            <element signature="method#setMessages#0;class#Mail#0" expanded="false" />
-            <element signature="docComment;method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
-            <element signature="method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
-            <element signature="e#4169#4170#0" expanded="true" />
-            <element signature="e#4200#4201#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <element signature="e#4300#4301#0" expanded="true" />
-            <element signature="e#4331#4332#0" expanded="true" />
+            <element signature="docComment;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#start#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="docComment;method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailInteractor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#FolderViewer#0" expanded="false" />
+            <element signature="method#start#0;class#FolderViewer#0" expanded="false" />
+            <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+            <element signature="method#printFolder#0;class#FolderViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <folding>
+            <element signature="docComment;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#message#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;class#FlagSetter#0" expanded="false" />
+            <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailInteractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#MailInteractor#0" expanded="false" />
             <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
             <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+            <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
             <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
           </folding>
         </state>
@@ -730,6 +773,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Main#0" expanded="false" />
             <element signature="docComment;field#mainMenu#0;class#Main#0" expanded="false" />
             <element signature="docComment;field#mail#0;class#Main#0" expanded="false" />
@@ -737,34 +781,77 @@
             <element signature="docComment;method#Main#0;class#Main#0" expanded="false" />
             <element signature="method#Main#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#offerMainMenu#0;class#Main#0" expanded="false" />
+            <element signature="method#offerMainMenu#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MailSearchInteractor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailSearchInteractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
+            <element signature="docComment;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FlagSetter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.774194">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="docComment;class#FlagSetter#0" expanded="false" />
-            <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+            <element signature="docComment;class#MessageSearcher#0" expanded="false" />
+            <element signature="method#start#0;class#MessageSearcher#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageViewer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#MessageUtils#0" expanded="false" />
+            <element signature="method#printSimpleDetails#0;class#MessageUtils#0" expanded="false" />
+            <element signature="docComment;method#getMainBody#0;class#MessageUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#start#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="docComment;method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#FolderViewer#0" expanded="false" />
+            <element signature="method#start#0;class#FolderViewer#0" expanded="false" />
+            <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+            <element signature="method#printFolder#0;class#FolderViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
@@ -780,50 +867,503 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/FolderViewer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
-            <element signature="docComment;class#FolderViewer#0" expanded="false" />
-            <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+            <element signature="docComment;class#FlagSetter#0" expanded="false" />
+            <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageSearcher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+            <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/credentials.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Main#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#Main#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#Main#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#Main#0" expanded="false" />
+            <element signature="docComment;method#Main#0;class#Main#0" expanded="false" />
+            <element signature="method#Main#0;class#Main#0" expanded="false" />
+            <element signature="docComment;method#offerMainMenu#0;class#Main#0" expanded="false" />
+            <element signature="method#offerMainMenu#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailSearchInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="docComment;class#MessageSearcher#0" expanded="false" />
+            <element signature="method#start#0;class#MessageSearcher#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/MessageUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MessageUtils#0" expanded="false" />
             <element signature="method#printSimpleDetails#0;class#MessageUtils#0" expanded="false" />
-            <element signature="method#getAllBody#0;class#MessageUtils#0" expanded="false" />
-            <element signature="method#getMainBody#0;class#MessageUtils#0" expanded="false" />
+            <element signature="docComment;method#getMainBody#0;class#MessageUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/SearchFlagSetter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71153843">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#start#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="docComment;method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#FolderViewer#0" expanded="false" />
+            <element signature="method#start#0;class#FolderViewer#0" expanded="false" />
+            <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+            <element signature="method#printFolder#0;class#FolderViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <folding>
+            <element signature="docComment;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#message#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;class#FlagSetter#0" expanded="false" />
+            <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
+            <element signature="docComment;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+            <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/credentials.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Main#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#Main#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#Main#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#Main#0" expanded="false" />
+            <element signature="docComment;method#Main#0;class#Main#0" expanded="false" />
+            <element signature="method#Main#0;class#Main#0" expanded="false" />
+            <element signature="docComment;method#offerMainMenu#0;class#Main#0" expanded="false" />
+            <element signature="method#offerMainMenu#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailSearchInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#MessageSearcher#0" expanded="false" />
+            <element signature="method#start#0;class#MessageSearcher#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#MessageUtils#0" expanded="false" />
+            <element signature="method#printSimpleDetails#0;class#MessageUtils#0" expanded="false" />
+            <element signature="docComment;method#getMainBody#0;class#MessageUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="docComment;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#start#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="docComment;method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#FolderViewer#0" expanded="false" />
+            <element signature="method#start#0;class#FolderViewer#0" expanded="false" />
+            <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+            <element signature="method#printFolder#0;class#FolderViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <folding>
+            <element signature="docComment;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#message#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;class#FlagSetter#0" expanded="false" />
+            <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+            <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/credentials.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/credentials.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;class#Mail#0" expanded="false" />
+            <element signature="docComment;field#session#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;field#username#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;field#messages#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#Mail#0;class#Mail#0" expanded="false" />
+            <element signature="method#Mail#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#login#0;class#Mail#0" expanded="false" />
+            <element signature="method#login#0;class#Mail#0" expanded="false" />
+            <element signature="class#1174:1423" expanded="false" />
+            <element signature="method#getPasswordAuthentication#0;class#1174:1423" expanded="false" />
+            <element signature="docComment;method#setCredentials#0;class#Mail#0" expanded="false" />
+            <element signature="method#setCredentials#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#setSysProperties#0;class#Mail#0" expanded="false" />
+            <element signature="method#setSysProperties#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#setMessages#0;class#Mail#0" expanded="false" />
+            <element signature="method#setMessages#0;class#Mail#0" expanded="false" />
+            <element signature="docComment;method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
+            <element signature="method#getPasswordFromUser#0;class#Mail#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#MailInteractor#0" expanded="false" />
+            <element signature="method#MailInteractor#0;class#MailInteractor#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#MailInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#FlagSetter#0" expanded="false" />
+            <element signature="method#FlagSetter#0;class#FlagSetter#0" expanded="false" />
+            <element signature="method#start#0;class#FlagSetter#0" expanded="false" />
+            <element signature="docComment;method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+            <element signature="method#printMainMenu#0;class#FlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/FolderViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#FolderViewer#0" expanded="false" />
+            <element signature="method#start#0;class#FolderViewer#0" expanded="false" />
+            <element signature="docComment;method#printFolder#0;class#FolderViewer#0" expanded="false" />
+            <element signature="method#printFolder#0;class#FolderViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;field#to#0;class#MessageCreator#0" expanded="false" />
+            <element signature="method#start#0;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;method#setMessageDetailsFromUser#0;class#MessageCreator#0" expanded="false" />
+            <element signature="method#setMessageDetailsFromUser#0;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;method#setMessageDetailsFromDefault#0;class#MessageCreator#0" expanded="false" />
+            <element signature="method#setMessageDetailsFromDefault#0;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;method#sendMessage#0;class#MessageCreator#0" expanded="false" />
+            <element signature="method#sendMessage#0;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;method#getMessage#0;class#MessageCreator#0" expanded="false" />
+            <element signature="method#getMessage#0;class#MessageCreator#0" expanded="false" />
+            <element signature="docComment;method#getMessageBody#0;class#MessageCreator#0" expanded="false" />
+            <element signature="method#getMessageBody#0;class#MessageCreator#0" expanded="false" />
+            <element signature="e#4722#4800#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/SearchFlagSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#start#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="docComment;method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+            <element signature="method#setFlagsForMessages#0;class#SearchFlagSetter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#MessageSearcher#0" expanded="false" />
+            <element signature="method#start#0;class#MessageSearcher#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MailSearchInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#searchMessagesByKeyword#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#checkHasKeywords#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="docComment;method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+            <element signature="method#getKeywordsFromUser#0;class#MailSearchInteractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Main#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#Main#0" expanded="false" />
+            <element signature="docComment;field#mail#0;class#Main#0" expanded="false" />
+            <element signature="docComment;field#input#0;class#Main#0" expanded="false" />
+            <element signature="docComment;method#Main#0;class#Main#0" expanded="false" />
+            <element signature="method#Main#0;class#Main#0" expanded="false" />
+            <element signature="docComment;method#offerMainMenu#0;class#Main#0" expanded="false" />
+            <element signature="method#offerMainMenu#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.jar!/javax/mail/Part.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.206897">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/interactors/MessageViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#mainMenu#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;field#message#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#MessageViewer#0;class#MessageViewer#0" expanded="false" />
+            <element signature="docComment;method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+            <element signature="method#printMessageInfo#0;class#MessageViewer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mishawagner/ssc/mail/util/MessageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92258066">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#MessageUtils#0" expanded="false" />
+            <element signature="method#printSimpleDetails#0;class#MessageUtils#0" expanded="false" />
+            <element signature="docComment;method#getMainBody#0;class#MessageUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>

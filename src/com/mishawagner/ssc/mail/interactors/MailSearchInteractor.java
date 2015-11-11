@@ -1,14 +1,12 @@
-package com.mishawagner.ssc.mail;
+package com.mishawagner.ssc.mail.interactors;
 
+import com.mishawagner.ssc.mail.Mail;
+import com.mishawagner.ssc.mail.util.MessageUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.activation.DataHandler;
-import javax.mail.BodyPart;
 import javax.mail.Message;
 import javax.mail.MessagingException;
-import javax.mail.Multipart;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -24,6 +22,12 @@ public abstract class MailSearchInteractor extends MailInteractor {
         super(mail, input);
     }
 
+    /**
+     * Search for a message from a keyword
+     * @param messages the messages to search
+     * @param keywords the keywords to look for
+     * @return list of messages found
+     */
     protected List<Message> searchMessagesByKeyword(Message[] messages, List<String> keywords) {
         List<Message> filtered = new ArrayList<>();
 
@@ -36,6 +40,12 @@ public abstract class MailSearchInteractor extends MailInteractor {
         return filtered;
     }
 
+    /**
+     * Check if a message contains any keywords
+     * @param m the message to check
+     * @param keywords the keywords to check for
+     * @return if any keywords were found
+     */
     protected boolean checkHasKeywords(Message m, List<String> keywords) {
         String wholeText = "";
 
@@ -55,6 +65,10 @@ public abstract class MailSearchInteractor extends MailInteractor {
         return false;
     }
 
+    /**
+     * Get a list of keywords from the user
+     * @return list of the keywords entered
+     */
     protected List<String> getKeywordsFromUser() {
         List<String> keywords = new ArrayList<>();
         String curKeyword;

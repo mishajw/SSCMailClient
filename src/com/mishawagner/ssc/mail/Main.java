@@ -1,5 +1,7 @@
 package com.mishawagner.ssc.mail;
 
+import com.mishawagner.ssc.mail.interactors.*;
+
 import java.util.Scanner;
 
 /**

@@ -1,11 +1,9 @@
-package com.mishawagner.ssc.mail;
+package com.mishawagner.ssc.mail.interactors;
 
+import com.mishawagner.ssc.mail.Mail;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
-import javax.activation.FileDataSource;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Transport;
@@ -36,8 +34,7 @@ public class MessageCreator extends MailInteractor {
 
     @Override
     public void start() {
-//        setMessageDetailsFromUser();
-        setMessageDetailsFromDefault();
+        setMessageDetailsFromUser();
         sendMessage();
     }
 
@@ -61,6 +58,11 @@ public class MessageCreator extends MailInteractor {
         this.attachmentPath = input.nextLine();
     }
 
+
+    /**
+     * Send a default message for testing purposes
+     */
+    @SuppressWarnings("unused")
     private void setMessageDetailsFromDefault() {
         this.to = "mishajw@gmail.com";
         this.cc = "mishajw@gmail.com";
@@ -89,6 +91,10 @@ public class MessageCreator extends MailInteractor {
         }
     }
 
+    /**
+     * Gets a new message based on fields
+     * @return the message
+     */
     private Message getMessage() {
         __logger.info("Setting message");
 
@@ -115,6 +121,10 @@ public class MessageCreator extends MailInteractor {
         }
     }
 
+    /**
+     * Get the main message body from fields
+     * @return the message body
+     */
     private MimeMultipart getMessageBody() {
         __logger.info("Setting message body");
 

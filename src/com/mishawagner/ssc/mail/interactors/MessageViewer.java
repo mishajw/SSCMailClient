@@ -1,14 +1,12 @@
-package com.mishawagner.ssc.mail;
+package com.mishawagner.ssc.mail.interactors;
 
+import com.mishawagner.ssc.mail.Mail;
+import com.mishawagner.ssc.mail.util.MessageUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.activation.DataHandler;
-import javax.mail.BodyPart;
 import javax.mail.Message;
 import javax.mail.MessagingException;
-import javax.mail.Multipart;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -56,7 +54,7 @@ public class MessageViewer extends MailInteractor{
 
         switch (option) {
             case 1:
-                MessageUtils.getAllBody(this.message);
+                System.out.println(MessageUtils.getAllBody(this.message));
                 break;
             case 2:
                 MailInteractor flagSetter = new FlagSetter(mail, input, message);

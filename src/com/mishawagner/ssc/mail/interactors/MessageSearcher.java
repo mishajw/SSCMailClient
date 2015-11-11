@@ -1,4 +1,7 @@
-package com.mishawagner.ssc.mail;
+package com.mishawagner.ssc.mail.interactors;
+
+import com.mishawagner.ssc.mail.Mail;
+import com.mishawagner.ssc.mail.util.MessageUtils;
 
 import javax.mail.Message;
 import java.util.Arrays;

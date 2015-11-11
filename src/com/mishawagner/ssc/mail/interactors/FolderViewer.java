@@ -1,12 +1,9 @@
-package com.mishawagner.ssc.mail;
+package com.mishawagner.ssc.mail.interactors;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.mishawagner.ssc.mail.Mail;
+import com.mishawagner.ssc.mail.util.MessageUtils;
 
-import javax.mail.Flags;
 import javax.mail.Message;
-import javax.mail.MessagingException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -15,8 +12,6 @@ import java.util.Scanner;
  * View all emails
  */
 public class FolderViewer extends MailInteractor {
-    private static final Logger __logger = LoggerFactory.getLogger(FolderViewer.class);
-
     public FolderViewer(Mail mail, Scanner input) {
         super(mail, input);
     }
